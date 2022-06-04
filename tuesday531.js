@@ -160,3 +160,70 @@ for (let i = 0; i < arrayOfFriends.length; i++) {
 for (let i = 0; i < 2; i++) {
   console.log(arrayOfFriends[i]);
 }
+
+function tipAmount2(billAmount, rating) {
+  if (rating == 'good') {
+    return billAmount * 0.2;
+  } else if (rating == 'fair') {
+    return billAmount * 0.15;
+  } else {
+    return billAmount * 0.1;
+  }
+}
+
+console.log(tipAmount2(100, 'fair'));
+
+function onlyEvens(array) {
+  const response = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 == 0) {
+      response.push(array[i]);
+    }
+  }
+  return response;
+}
+
+console.log(onlyEvens([1, 3, 6, 8, 10]));
+
+function onlyPositives(array) {
+  const response = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] >= 0) {
+      response.push(array[i]);
+    }
+  }
+  return response;
+}
+
+console.log(onlyPositives([-4, -80, 5, 16]));
+
+for (let i = 105; i < 126; i++) {
+  if (i % 2 != 0) {
+    console.log(i);
+  }
+}
+
+function times5(array) {
+  const response = [];
+  for (let i = 0; i < array.length; i++) {
+    response.push(array[i] * 5);
+  }
+  return response;
+}
+
+console.log(times5([5, 7, 0, 10]));
+
+const myCars = [
+  { make: 'Chevy', model: 'Camaro', year: 2014, mileage: 75000 },
+  { make: 'Ford', model: 'Mustang', year: 2021, mileage: 8000 },
+  { make: 'Dodge', model: 'Challenger', year: 2008, mileage: 125000 },
+  { make: 'Mercedes', model: 'G Wagon', year: 2022, mileage: 500 },
+];
+
+function printMileages(cars) {
+  for (let i = 0; i < cars.length; i++) {
+    console.log(cars[i].mileage);
+  }
+}
+
+console.log(printMileages(myCars));
