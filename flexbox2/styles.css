@@ -1,0 +1,15 @@
+.pic-container {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;  puts equal space around the elements in the flexbox */
+  justify-content: center; /* puts everything in the center of the flexbox */
+  flex-wrap: wrap;
+  height: 80vh;
+  align-items: center
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}

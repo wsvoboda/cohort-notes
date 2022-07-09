@@ -1,0 +1,43 @@
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+}
+
+.hate {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.love-count {
+  margin-left: 8px;
+}
+
+.hate-count {
+  margin-left: 8px;
+}
+
+.reactions {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.joke-container {
+  margin-top: 16px;
+}
+
+.like-button {
+  color: crimson;
+  border: none;
+  background-color: black;
+}

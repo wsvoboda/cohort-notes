@@ -1,0 +1,15 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-left: 8px;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 16px;
+}
